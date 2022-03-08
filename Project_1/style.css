@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+#container{
+    /* background-color: silver; */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(images/13.jpg);
+    width: 100%;
+    /* height: 100px; */
+    color: white;
+}
+#left_header{
+    padding: 30px 0;
+    float: left;
+    margin-left: 30px;
+    cursor: default;
+}
+#left_header:hover{
+    color: orange;
+}
+#right_header{
+    float: right;
+}
+#right_header ul{
+    list-style-type: none;
+}
+#right_header ul li{
+    float: left;
+    /* background: orange; */
+    padding: 37px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 2px;
+    transition: background 1s;
+    cursor: pointer;
+}
+#right_header a{
+    color: white;
+}
+#right_header ul li:hover{
+    background: orange;
+}
+.main_img{
+    width: 100%;
+    height: 100%;
+}
+.first_section{
+    padding: 0 5%;
+}
+.first_section h2{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px black;
+    padding: 50px;
+    color: silver;
+}
+article{
+    width: 23%;
+    margin: 1%;
+    float: left;
+    color: #666;
+}
+
+article img{
+    width: 100%;
+}
+article img:hover{
+    animation: img_animation 2s;
+}
+.img_block{
+    height: 200px;
+    overflow: hidden;
+}
+@keyframes img_animation {
+    from{width: 100%;}
+    to {width: 150%;}
+}
+.article_title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.article_description{
+    text-align: center;
+}
+.second_section{
+    background: url(images/tod7.jpg);
+    background-size: 100%;
+    width: 100%;
+    /* height: 100%; */
+    height: 845px;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+.second_section h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    transition: text-decoration 1s;
+}
+.second_section h2:hover{
+    text-decoration: underline;
+}
+.second_section .left_side{
+    width: 40%;
+    float: left;
+}
+.second_section .left_side img{
+    width: 100%;
+    height: 80%;
+    border: 5px solid white;
+    border-radius: 40px;
+}
+.second_section .right_side{
+    width: 40%;
+    float: right;
+    color: white;
+    background: black;
+    padding: 20px;
+    border: 5px solid white;
+    line-height: 30px;
+    border-radius: 40px;
+}
+footer{
+    width: 100%;
+    color: white;
+    /* background: gray; */
+    /* height: 100px; */
+    /* background: url(images/tod8.jpg); */
+    background: url(images/tod7.jpg);
+
+}
+.left_footer{
+    padding: 20px;
+    float: left;
+}
+.right_footer{
+    padding: 20px;
+    float: right;
+}
+/* .right_footer ul{} */
+.right_footer ul li{
+    float: left;
+    width: 100px;
+    padding: 0 20px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    transition: color 2s;
+}
+.right_footer ul li:hover{
+    color: orange;
+}
